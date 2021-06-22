@@ -7,7 +7,7 @@ from pycaret.classification import *
 import matplotlib.pyplot as plt
 
 # loading the trained model.
-model = load_model('model/modelo-final-dt')
+model = load_model('modelo-final-dt')
 
 # carregando uma amostra dos dados.
 #dataset = pd.read_csv('data/dataset.csv') 
